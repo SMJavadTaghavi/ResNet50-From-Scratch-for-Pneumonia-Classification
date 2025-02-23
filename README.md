@@ -1,7 +1,9 @@
 # **Pneumonia Classification using ResNet50 on Chest X-ray Images**
 
 This repository contains a deep learning project aimed at classifying chest X-ray images into two categories: `NORMAL` and `PNEUMONIA`, using the ResNet50 architecture. Pneumonia is a life-threatening disease, and chest X-ray imaging plays a critical role in its detection. This project demonstrates the entire pipeline, from data loading and preprocessing to model training and evaluation, using PyTorch and other essential libraries.
+
 ![Image](https://github.com/user-attachments/assets/cc551e1b-225b-47f0-a71f-c30e0869955f)
+
 ## **Introduction**
 
 Pneumonia remains a leading cause of mortality worldwide, especially in children and the elderly. Early and accurate detection is crucial for timely medical intervention. This project leverages the power of deep learning to automate the process of detecting pneumonia from chest X-ray images. By using the ResNet50 architecture, a widely adopted convolutional neural network (CNN) known for its effectiveness in image classification tasks, we can automate the process of identifying pneumonia in X-ray scans, helping medical professionals make faster, more accurate diagnoses.
@@ -42,6 +44,8 @@ After training, the model’s performance is evaluated using several key metrics
 - **Recall**: The percentage of true positives out of all actual positive cases.
 - **F1-Score**: The harmonic mean of precision and recall.
 - **AUC (Area Under the Curve)**: A performance measurement for classification problems at various threshold settings.
+- 
+![Image](https://github.com/user-attachments/assets/0acac8be-a0b2-48b6-8987-86449fb34c65)
 
 Additionally, **confusion matrices** and **ROC curves** are plotted to visually evaluate the model's performance.
 
@@ -52,6 +56,8 @@ The model was evaluated on the test dataset, and the following results were obta
 - **Recall**: 93%
 - **F1-Score**: 92.5%
 - **AUC**: 0.98
+
+![Image](https://github.com/user-attachments/assets/8a642932-eb8b-4e54-a1ff-2e3e5d701585)
 
 These results indicate that the model performs well in distinguishing between normal and pneumonia cases.
 
