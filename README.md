@@ -98,3 +98,5 @@ In future work, we could explore:
    ![Confusion Matrix](path_to_confusion_matrix_image.png)
    ```
 
+kaggle link :
+https://www.kaggle.com/code/mohammadjavadtaghavi/pneumonia-classification-using-resnet50-on-chest-x
