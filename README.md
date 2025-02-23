@@ -1,7 +1,7 @@
 # **Pneumonia Classification using ResNet50 on Chest X-ray Images**
 
 This repository contains a deep learning project aimed at classifying chest X-ray images into two categories: `NORMAL` and `PNEUMONIA`, using the ResNet50 architecture. Pneumonia is a life-threatening disease, and chest X-ray imaging plays a critical role in its detection. This project demonstrates the entire pipeline, from data loading and preprocessing to model training and evaluation, using PyTorch and other essential libraries.
-
+![Image](https://github.com/user-attachments/assets/cc551e1b-225b-47f0-a71f-c30e0869955f)
 ## **Introduction**
 
 Pneumonia remains a leading cause of mortality worldwide, especially in children and the elderly. Early and accurate detection is crucial for timely medical intervention. This project leverages the power of deep learning to automate the process of detecting pneumonia from chest X-ray images. By using the ResNet50 architecture, a widely adopted convolutional neural network (CNN) known for its effectiveness in image classification tasks, we can automate the process of identifying pneumonia in X-ray scans, helping medical professionals make faster, more accurate diagnoses.
