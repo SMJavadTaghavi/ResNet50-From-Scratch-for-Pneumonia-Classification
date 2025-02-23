@@ -44,7 +44,7 @@ After training, the model’s performance is evaluated using several key metrics
 - **Recall**: The percentage of true positives out of all actual positive cases.
 - **F1-Score**: The harmonic mean of precision and recall.
 - **AUC (Area Under the Curve)**: A performance measurement for classification problems at various threshold settings.
-- 
+  
 ![Image](https://github.com/user-attachments/assets/0acac8be-a0b2-48b6-8987-86449fb34c65)
 
 Additionally, **confusion matrices** and **ROC curves** are plotted to visually evaluate the model's performance.
